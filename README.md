@@ -1,16 +1,20 @@
 # webrtc_flutter_test
 
-A new Flutter project.
+This is a simple flutter text chat application using `flutter_webrtc`.
 
-## Getting Started
+[![Demo](https://j.gifs.com/jZDWvv.gif)](https://www.youtube.com/watch?v=e2Vf27yLQaE)
 
-This project is a starting point for a Flutter application.
+## How to use this demo
 
-A few resources to get you started if this is your first Flutter project:
+This demo does only have the webrtc code with no signaling logic, the signaling should be done via other means. Click on the gif above demonstrating the following steps.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- First **A** click on offer button to create an offer sdp.
+- **A** should signal the offer sdp via WhatsApp for example to **B**
+- **B** should open the application and click on answer button to create an answer sdp.
+- **B** should signal the answer sdp back to **A**
+- **A** should click on set remote and use the answer sdp he got from **B**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Resources
+
+- [[YouTube] WebRTC Crash Course](https://www.youtube.com/watch?v=FExZvpVvYxA)
+- [flutter-webrtc/flutter-webrtc-demo](https://github.com/flutter-webrtc/flutter-webrtc-demo)
